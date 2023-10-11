@@ -59,6 +59,10 @@
 "HomeReadInfoAddressLabel" = "Address";
 "HomeReadInfoEmailLabel" = "Email";
 "HomeReadInfoPhoneLabel" = "Phone";
+"HomeReadInfoSexLabelMan" = "Male";
+"HomeReadInfoSexLabelWoman" = "Female";
+"HomeReadInfoSexLabelNotApplicable" = "Not Applicable";
+"HomeReadInfoSexLabelUnknown" = "Unknown";
 
 "AgreementCardClientTitle" = "Client";
 "AgreementCardContentTitle" = "Content";
