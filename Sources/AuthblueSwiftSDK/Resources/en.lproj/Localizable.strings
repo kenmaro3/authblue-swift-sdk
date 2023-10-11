@@ -1,0 +1,191 @@
+"NotDisplayName" = "not_display_name";
+
+"DeepLinkAgreementRequestTitle" = "Agreement request";
+"DeepLinkAgreementRequestSubTitle"="Review agreement request";
+"DeepLinkAgreementRequestNextButtonLabel"="Review agreement request";
+
+"DeepLinkAgreementSentTitle" = "Agreement sent";
+"DeepLinkAgreementSentSubTitle" = "Review agreement receipt\nTap to see the detail";
+"DeepLinkAgreementSentGoBackLabel" = "Go to receipt";
+"DeepLinkAgreementCancel" = "Cancel";
+
+"DeepLinkAgreementStepsSubmitLabel" = "Submit";
+
+"DeepLinkAgreementStepsInvalidPinTitle" = "Invalid PIN";
+"DeepLinkAgreementStepsInvalidPinMessage" = "No pin entered for my number card auth";
+"DeepLinkAgreementStepsInvalidPinDismissButton" = "OK";
+
+"DeepLinkAgreementStepsNoCertificateFoundTitle" = "No Certificate Found";
+"DeepLinkAgreementStepsNoCertificateFoundMessage" = "You had not registered your my number card for your account";
+"DeepLinkAgreementStepsNoCertificateFoundDismissButton" = "OK";
+
+"DeepLinkAgreementStepRowStepTitle %lld" = "STEP %lld";
+"DeepLinkAgreementToStepButton" = "Start";
+
+
+"AgreementMethodFaceID" = "FaceID";
+"AgreementMethodFingerPrint" = "Finger Print";
+"AgreementMethodMyNumberCard" = "MyNumberCard";
+"AgreementMethodSignature" = "Signature";
+
+
+"HomeReceiptTitle" = "My Receipt";
+"HomeReceiptSubTitle" = "Check your activity log\nTap receipt to show detail";
+"HomeTabBarAgreementTitle" = "Agreement";
+"HomeReceiptNumber" = "of agreement receipts received";
+
+"QRScanTitle" = "Place the QR code inside the area";
+"QRScanLabel" = "Scanning will start automatically";
+"QRScanButtonSetting" = "Settings";
+"QRScanButtonCancel" = "Cancel";
+
+"AboutUserInfoShowToggleLabel" = "Show User Info";
+
+
+"HomeBottomNavigationReceiptTitle" = "Receipt";
+"HomeBottomNavigationScanTitle" = "Scan";
+
+"HomeUpdateInfoButtonTitle" = "Update Info";
+"HomeLogoutButtonTitle" = "Log Out";
+"HomeReadInfoButtonTitle" = "Read Info";
+"HomeReadInfoButtonTitleWarning" = "Need to Read Info";
+"HomeDeleteAccountButtonTitle" = "Delete Account";
+
+
+"HomeReadInfoNameLabel" = "Name";
+"HomeReadInfoBirthdayLabel" = "Birthday";
+"HomeReadInfoAgeLabel" = "Age";
+"HomeReadInfoSexLabel" = "Sex";
+"HomeReadInfoAddressLabel" = "Address";
+"HomeReadInfoEmailLabel" = "Email";
+"HomeReadInfoPhoneLabel" = "Phone";
+
+"AgreementCardClientTitle" = "Client";
+"AgreementCardContentTitle" = "Content";
+"AgreementCardRequestingInfoTitle" = "Agreed to provide";
+"AgreementCardDateTitle" = "Date";
+"AgreementCardRefCodeTitle" = "Ref Code";
+
+"AgreementRequestCardFromTitle" = "From";
+"AgreementRequestCardToTitle" = "To";
+"AgreementRequestCardAgreementMethodTitle" = "Method";
+"AgreementRequestCardRequestingInfoTitle" = "Requesting Info";
+"AgreementRequestCardContentTitle" = "Content";
+"AgreementRequestCardDateTitle" = "Date";
+
+"AgreementRequestUserDataNotReadyAlertTitle" = "User data is not ready to do this agreement";
+"AgreementRequestUserDataNotReadyAlertDescription" = "This agreement requests certain info, but user has not register these info yet. Please go to set info.";
+"AgreementRequestUserDataNotReadyAlertPrimaryButtonLabel" = "Okay";
+"AgreementRequestUserDataNotReadyAlertSecondaryButtonLabel" = "Cancel";
+
+"AgreementRequestUserCertificateNotReadyAlertTitle" = "User certificate is not ready to do this agreement";
+"AgreementRequestUserCertificateNotReadyAlertDescription" = "This agreement requests my number signature for method, but user has not register certificate yet. Please go to register.";
+"AgreementRequestUserCertificateNotReadyAlertPrimaryButtonLabel" = "Okay";
+"AgreementRequestUserCertificateNotReadyAlertSecondaryButtonLabel" = "Cancel";
+
+"DeleteAccountUserCertificateNotReadyAlertTitle" = "User certificate is not ready";
+"DeleteAccountUserCertificateNotReadyAlertDescription" = "Deleting account requests my number signature for method, but user has not register certificate yet. Please go to register.";
+"DeleteAccountUserCertificateNotReadyAlertPrimaryButtonLabel" = "Okay";
+"DeleteAccountUserCertificateNotReadyAlertSecondaryButtonLabel" = "Cancel";
+
+
+"PasscodeFieldDescriptionForGettingInfo" = "To get info from My Number Card, \nyou need to put My Number Card PIN code \n(The first PIN Code registered at city office).";
+"PasscodeFieldDescriptionForSignature" = "To get signature using My Number Card, \nyou need to put My Number Card PIN code \n(The second PIN Code registered at city office).";
+"PasscodeFieldDescriptionForSignatureForDeleteAccount" = "To delete the account, my number authentication is needed.\nyou need to put My Number Card PIN code \n(The second PIN Code registered at city office).";
+"PasscodeFieldDescriptionForReadingInfoFromCard" = "Infomation will be read from My Number Card, \nthis info will never disclosed without your agreement.";
+"PasscodeFieldLabel" = "Enter PIN for My Number Card";
+
+"SignInWelcomeLabel" = "Welcome";
+"SignInWelcomeLabel2" = "\nLogin to continue";
+"SignInChangeCodeLabel" = "Change";
+"SignInOTPCode" = "OTP Code";
+"SignInVerifyCodeLabel" = "Verify Code";
+"SignInGetCodeLabel" = "Get Code";
+"SignInORLabel" = "(OR)";
+"SignInWithGoogleLabel" = "Login with Google";
+"SignInWithAppleLabel" = "Login with Apple";
+
+"PhoneVerificationOkay" = "Phone verification Successed";
+
+
+"MNCRegisterScanLabel" = "Scan your ";
+"MNCRegisterScanLabel2" = "\nmy number card";
+"MNCRegisterScanSecondLabel1" = "Please scan your my number card";
+"MNCRegisterScanSecondLabel2" = "to register your certificate from my number card";
+"MNCRegisterScanSecondLabel3" = "\nto proceed forward";
+"MNCRegisterScanSkipButtonLabel" = "Skip";
+
+"HomeSettingsNavigationTitleAbout" = "About";
+"HomeSettingsNavigationTitleSignOut" = "SignOut";
+
+"HomeNotificationTitle" = "Notification";
+
+"HomeSettingsSectionTitle1" = "Registration of Certificate";
+"HomeSettingsSectionTitle2" = "Registration of Infomation";
+
+"HomeSettingsNoMyNumberRegistered" = "Certificate from my number card is not registered. \nPlease tap this to start registration.";
+"HomeSettingsNoNameRegistered" = "Name is not registered in this app.\nPlease tap here to start registration.";
+"HomeSettingsNoBirthdayRegistered" = "Birthday is not registered in this app.\nPlease tap here to start registration.";
+"HomeSettingsNoAgeRegistered" = "Age is not registered in this app.\nPlease tap here to start registration.";
+"HomeSettingsNoSexRegistered" = "Sex is not registered in this app.\nPlease tap here to start registration.";
+"HomeSettingsNoAddressRegistered" = "Address is not registered in this app.\nPlease tap here to start registration.";
+"HomeSettingsNoPhoneRegistered" = "Phone is not registered in this app.\nPlease tap here to start registration.";
+"HomeSettingsNoEmailRegistered" = "Email is not registered in this app.\nPlease tap here to start registration.";
+
+"HomeLogoutConfirmationTitle" = "Confirmation of logout";
+"HomeLogoutConfirmationDescription" = "Are you sure to logout? When you logout, you need to login again for make an agreement next time. When you login again, you can register info again.";
+"HomeLogoutConfirmationPrimaryButton" = "OK";
+"HomeLogoutConfirmationSecondaryButton" = "Cancel";
+
+"HomeDeleteAccountConfirmationTitle" = "Confirmation of deletion of account";
+"HomeDeleteAccountConfirmationDescription" = "Are you sure to delete your account? When you do, all the personal infomation in app and your agreement record will be deleted. When you register again, you can save info again. In order to delete your account, my number authentication is needed.";
+"HomeDeleteAccountConfirmationPrimaryButton" = "Proceed";
+"HomeDeleteAccountConfirmationSecondaryButton" = "Cancel";
+
+
+"PhoneRegisterTitle1" = "Phone number";
+"PhoneRegisterTitle2" = "\nverification";
+
+"EmailRegisterTitle1" = "Email address";
+"EmailRegisterTitle2" = "\nregistration";
+
+"AgreementDetailModalTitle" = "Agreement receipt detail";
+"AgreementDetailModalHeaderBasic" = "Basic info";
+"AgreementDetailModalHeaderAgreementMethod" = "Agreement method";
+"AgreementDetailModalHeaderRequestingInfo" = "Requested info";
+"AgreementDetailModalHeaderContent" = "Content";
+
+"AgreementDetailModalRefIdLabel" = "Reference number";
+"AgreementDetailModalClientNameLabel" = "Client name";
+"AgreementDetailModalUserNameLabel" = "Customer name";
+"AgreementDetailModalDateLabel" = "Date";
+
+
+"AgreementDetailModalAgreementMethodFaceIdLabel" = "Face ID";
+"AgreementDetailModalAgreementMethodMncLabel" = "My number card";
+"AgreementDetailModalAgreementMethodSignatureLabel" = "Signature";
+
+"AgreementDetailModalRequestingInfoNameLabel" = "Name";
+"AgreementDetailModalRequestingInfoBirthdayLabel" = "Birthday";
+"AgreementDetailModalRequestingInfoAgeLabel" = "Age";
+"AgreementDetailModalRequestingInfoSexLabel" = "Sex";
+"AgreementDetailModalRequestingInfoAddressLabel" = "Address";
+"AgreementDetailModalRequestingInfoEmailLabel" = "Email";
+"AgreementDetailModalRequestingInfoPhoneLabel" = "Phone";
+
+"OverlayViewSendingAgreementLabel" = "Sending agreement...";
+"OverlayViewLoggingInLabel" = "Logging in...";
+"OverlayViewFetchingDataLabel" = "Fetching agreement receipts...";
+
+"PageIntroTitle1" = "Make an Agreement\nMore Smoothly";
+"PageIntroSubTitle1" = "Daily agreement can be completed on smartphone, we will save your time";
+"PageIntroTitle2" = "Manage Your Receipt\n On Your Device";
+"PageIntroSubTitle2" = "We will issue an receipt for each agreement, when and where you agree to who";
+"PageIntroTitle3" = "Integrate With\n My Number Card";
+"PageIntroSubTitle3" = "Use my number card to input your infomation, no need to write on your own, same information again and again";
+"SignInWelcomeLabelAfterIntro" = "Let's\n Start\nAUTHBLUE";
+
+"TutorialStartScreenTitle1" = "Tutorial of";
+"TutorialStartScreenTitle2" = "Sending An Agreement";
+"TutorialStartScreenGoNext" = "Next";
+"TutorialRequestContent" = "This is AUTHBLUE tutorial content.";

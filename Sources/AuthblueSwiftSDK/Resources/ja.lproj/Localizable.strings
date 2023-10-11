@@ -1,0 +1,201 @@
+"NotDisplayName" = "ログイン時の名前非表示";
+
+"DeepLinkAgreementRequestTitle" = "同意のリクエスト";
+"DeepLinkAgreementRequestSubTitle"="同意の内容を確認してください。\nタップすることで詳細を確認することができます。";
+"DeepLinkAgreementRequestNextButtonLabel"="進む";
+
+"DeepLinkAgreementSentTitle" = "同意送信の完了";
+"DeepLinkAgreementSentSubTitle" = "同意レシートを確認しましょう。\nタップすることで詳細を確認することができます。";
+"DeepLinkAgreementSentGoBackLabel" = "レシートへ";
+"DeepLinkAgreementCancel" = "キャンセル";
+
+"DeepLinkAgreementStepsSubmitLabel" = "送信";
+
+"DeepLinkAgreementStepsInvalidPinTitle" = "パスワードが間違っています";
+"DeepLinkAgreementStepsInvalidPinMessage" = "マイナンバーのパスワード入力が空です。";
+"DeepLinkAgreementStepsInvalidPinDismissButton" = "了解";
+
+"DeepLinkAgreementStepsNoCertificateFoundTitle" = "証明書が登録されていません";
+"DeepLinkAgreementStepsNoCertificateFoundMessage" = "アプリケーションにマイナンバーカードの証明書が登録されていません。登録を再度実行してください。";
+"DeepLinkAgreementStepsNoCertificateFoundDismissButton" = "了承";
+
+"DeepLinkAgreementStepsAgreementFailedTitle" = "同意の送信に失敗しました。";
+"DeepLinkAgreementStepsAgreementFailedMessage" = "お手数ですが同意を最初からもう一度お試しください。改善されなければサポートへとご連絡ください。\nご迷惑をおかけして申し訳ございません。";
+"DeepLinkAgreementStepsAgreementFailedButton" = "了承";
+
+"DeepLinkAgreementStepsUnknownAlertTitle" = "エラーが発生しました。";
+"DeepLinkAgreementStepsUnknownAlertMessage" = "お手数ですが同意を最初からもう一度お試しください。改善されなければサポートへとご連絡ください。\nご迷惑をおかけして申し訳ございません。";
+"DeepLinkAgreementStepsUnknownAlertButton" = "了承";
+
+
+"DeepLinkAgreementStepRowStepTitle %lld" = "ステップ %lld";
+"DeepLinkAgreementToStepButton" = "同意の開始";
+
+
+"AgreementMethodFaceID" = "顔認証　";
+"AgreementMethodFingerPrint" = "指紋認証";
+"AgreementMethodMyNumberCard" = "マイナンバーカード";
+"AgreementMethodSignature" = "署名";
+
+
+"HomeReceiptTitle" = "レシート一覧";
+"HomeReceiptSubTitle" = "あなたの同意レシートを確認しましょう\nタップすると詳細を確認できます。";
+"HomeTabBarAgreementTitle" = "同意";
+"HomeReceiptNumber" = "件の同意ログ";
+
+"QRScanTitle" = "QRコードを\nスキャンしてください";
+"QRScanLabel" = "スキャンは自動で始まります";
+"QRScanButtonSetting" = "設定";
+"QRScanButtonCancel" = "キャンセル";
+
+"AboutUserInfoShowToggleLabel" = "情報の表示";
+
+"HomeBottomNavigationReceiptTitle" = "レシート";
+"HomeBottomNavigationScanTitle" = "QRスキャン";
+
+"HomeUpdateInfoButtonTitle" = "情報のアップデート";
+"HomeLogoutButtonTitle" = "ログアウト";
+"HomeReadInfoButtonTitle" = "情報の読み取り";
+"HomeReadInfoButtonTitleWarning" = "情報の読み取りが必要です";
+"HomeDeleteAccountButtonTitle" = "アカウントの削除";
+
+"HomeReadInfoNameLabel" = "氏名";
+"HomeReadInfoBirthdayLabel" = "生年月日";
+"HomeReadInfoAgeLabel" = "年齢";
+"HomeReadInfoSexLabel" = "性別";
+"HomeReadInfoAddressLabel" = "住所";
+"HomeReadInfoEmailLabel" = "メールアドレス";
+"HomeReadInfoPhoneLabel" = "電話番号";
+"HomeReadInfoSexLabelMan" = "男性";
+"HomeReadInfoSexLabelWoman" = "女性";
+"HomeReadInfoSexLabelNotApplicable" = "適用不能";
+"HomeReadInfoSexLabelUnknown" = "不明";
+
+"AgreementCardClientTitle" = "同意要請者";
+"AgreementCardContentTitle" = "内容";
+"AgreementCardRequestingInfoTitle" = "提出された情報";
+"AgreementCardDateTitle" = "日時";
+"AgreementCardRefCodeTitle" = "リファレンス番号";
+
+"AgreementRequestCardFromTitle" = "同意要請元";
+"AgreementRequestCardToTitle" = "同意要請先";
+"AgreementRequestCardAgreementMethodTitle" = "同意を実行する手法";
+"AgreementRequestCardRequestingInfoTitle" = "提出が必要な情報";
+"AgreementRequestCardContentTitle" = "内容";
+"AgreementRequestCardDateTitle" = "日時";
+
+"AgreementRequestUserDataNotReadyAlertTitle" = "同意に必要な情報が不足しています。";
+"AgreementRequestUserDataNotReadyAlertDescription" = "この同意は情報の提供を要求していますが、要求された情報が登録されていません。必要な情報を登録してから同意を実行してください。";
+"AgreementRequestUserDataNotReadyAlertPrimaryButtonLabel" = "了解";
+"AgreementRequestUserDataNotReadyAlertSecondaryButtonLabel" = "キャンセル";
+
+"AgreementRequestUserCertificateNotReadyAlertTitle" = "同意に必要な情報が不足しています。";
+"AgreementRequestUserCertificateNotReadyAlertDescription" = "この同意はマイナンバーカードの証明書と電子署名による認証を要求していますが、証明書が登録されていません。証明書を登録してから同意を実行してください。";
+"AgreementRequestUserCertificateNotReadyAlertPrimaryButtonLabel" = "了解";
+"AgreementRequestUserCertificateNotReadyAlertSecondaryButtonLabel" = "キャンセル";
+
+"DeleteAccountUserCertificateNotReadyAlertTitle" = "ユーザアカウントの削除に必要な情報が不足しています。";
+"DeleteAccountUserCertificateNotReadyAlertDescription" = "アカウントの削除にはマイナンバーカードの証明書と電子署名による認証が必要ですが、証明書が登録されていません。証明書を登録してからアカウントの削除を実行してください。";
+"DeleteAccountUserCertificateNotReadyAlertPrimaryButtonLabel" = "了解";
+"DeleteAccountUserCertificateNotReadyAlertSecondaryButtonLabel" = "キャンセル";
+
+"PasscodeFieldDescriptionForGettingInfo" = "マイナンバーカードから情報を読み取るために、パスコードの入力が必要です。\nマイナンバーカードに登録したパスワード(登録時の１つ目のパスワード）を入力してください。";
+"PasscodeFieldDescriptionForSignature" = "マイナンバーカードを使って署名を作成するために、パスコードの入力が必要です。\nマイナンバーカードに登録した署名用のパスコード（登録時の２つ目のパスコード）を入力してください。";
+"PasscodeFieldDescriptionForSignatureForDeleteAccount" = "アカウントの削除にはマイナンバー認証が必要です。\nマイナンバーカードに登録した署名用のパスコード（登録時の２つ目のパスコード）を入力してください。";
+"PasscodeFieldDescriptionForReadingInfoFromCard" = "マイナンバーカードから本人情報を取得します。この情報がサービスに同意なしに送信されることはありません。";
+"PasscodeFieldLabel" = "マイナンバーカードのパスコードを入力してください。";
+
+"SignInWelcomeLabel" = "ようこそ";
+"SignInWelcomeLabel2" = "\nログインして次に進んでください。";
+"SignInChangeCodeLabel" = "パスコードの交換";
+"SignInOTPCode" = "ワンタイムパスコード";
+"SignInVerifyCodeLabel" = "認証　";
+"SignInGetCodeLabel" = "取得";
+"SignInORLabel" = "(もしくは)";
+"SignInWithGoogleLabel" = "Googleでログインする";
+"SignInWithAppleLabel" = "Appleでログインする";
+
+"PhoneVerificationOkay" = "電話番号認証に成功しました。";
+
+
+
+"MNCRegisterScanLabel" = "マイナンバーカードの";
+"MNCRegisterScanLabel2" = "\nスキャンが必要です。";
+"MNCRegisterScanSecondLabel1" = "マイナンバーカードを利用した同意を実行可能にするために、証明書の登録が必要です。";
+"MNCRegisterScanSecondLabel2" = "\nこの登録によって特定個人情報がアップロードされることはありません。";
+"MNCRegisterScanSecondLabel3" = "\n\nスマートフォンをマイナンバーカードにかざして、数秒間キープしてください。\n成功すると画面が進みます。";
+"MNCRegisterScanSkipButtonLabel" = "今はスキップ";
+
+"HomeSettingsNavigationTitleAbout" = "保存情報";
+"HomeSettingsNavigationTitleSignOut" = "ログアウト";
+
+"HomeNotificationTitle" = "通知";
+
+"HomeSettingsSectionTitle1" = "証明書の登録";
+"HomeSettingsSectionTitle2" = "情報の登録";
+
+
+"HomeSettingsNoMyNumberRegistered" = "マイナンバーの証明書が登録されていません。\nタップして開始してください。";
+"HomeSettingsNoNameRegistered" = "氏名が登録されていません。\nタップして登録を開始してください。";
+"HomeSettingsNoBirthdayRegistered" = "生年月日が登録されていません。\nタップして登録を開始してください。";
+"HomeSettingsNoAgeRegistered" = "年齢が登録されていません。\nタップして登録を開始してください。";
+"HomeSettingsNoSexRegistered" = "性別が登録されていません。\nタップして登録を開始してください。";
+"HomeSettingsNoAddressRegistered" = "住所が登録されていません。\nタップして登録を開始してください。";
+"HomeSettingsNoPhoneRegistered" = "電話番号が登録されていません。\nタップして登録を開始してください。";
+"HomeSettingsNoEmailRegistered" = "メールアドレスが登録されていません。\nタップして登録を開始してください。";
+
+"HomeLogoutConfirmationTitle" = "ログアウトの確認";
+"HomeLogoutConfirmationDescription" = "ログアウトしてもよろしいですか？　ログアウトすると同意の形成には再度ログインが必要です。";
+"HomeLogoutConfirmationPrimaryButton" = "はい";
+"HomeLogoutConfirmationSecondaryButton" = "いいえ";
+
+"HomeDeleteAccountConfirmationTitle" = "アカウントの削除";
+"HomeDeleteAccountConfirmationDescription" = "アカウントを削除してもよろしいですか？　削除すると、端末に保存されたデータ、今までの同意のログデータが全て消去されます。削除にはマイナンバーカードでの認証が必要です。";
+"HomeDeleteAccountConfirmationPrimaryButton" = "はい";
+"HomeDeleteAccountConfirmationSecondaryButton" = "いいえ";
+
+
+"PhoneRegisterTitle1" = "電話番号認証";
+"PhoneRegisterTitle2" = "\nワンタイムパスコードを発行して開始";
+"EmailRegisterTitle1" = "メールアドレス認証";
+"EmailRegisterTitle2" = "\n以下からメールアドレスを認証";
+
+"AgreementDetailModalTitle" = "同意レシート詳細";
+"AgreementDetailModalHeaderBasic" = "基本情報";
+"AgreementDetailModalHeaderAgreementMethod" = "同意アクション";
+"AgreementDetailModalHeaderRequestingInfo" = "提出した情報";
+"AgreementDetailModalHeaderContent" = "同意内容";
+
+"AgreementDetailModalRefIdLabel" = "リファレンス番号";
+"AgreementDetailModalClientNameLabel" = "クライアント名";
+"AgreementDetailModalUserNameLabel" = "ユーザ名";
+"AgreementDetailModalDateLabel" = "同意日時";
+
+"AgreementDetailModalAgreementMethodFaceIdLabel" = "顔認証";
+"AgreementDetailModalAgreementMethodMncLabel" = "マイナンバーカード";
+"AgreementDetailModalAgreementMethodSignatureLabel" = "署名";
+
+"AgreementDetailModalRequestingInfoNameLabel" = "氏名";
+"AgreementDetailModalRequestingInfoBirthdayLabel" = "生年月日";
+"AgreementDetailModalRequestingInfoAgeLabel" = "年齢";
+"AgreementDetailModalRequestingInfoSexLabel" = "性別";
+"AgreementDetailModalRequestingInfoAddressLabel" = "住所";
+"AgreementDetailModalRequestingInfoEmailLabel" = "メールアドレス";
+"AgreementDetailModalRequestingInfoPhoneLabel" = "電話番号";
+
+"OverlayViewSendingAgreementLabel" = "同意を送信しています。";
+"OverlayViewLoggingInLabel" = "ログインしています。";
+"OverlayViewFetchingDataLabel" = "同意レシートを取得しています。";
+
+"PageIntroTitle1" = "同意をオンラインで\nスムーズに";
+"PageIntroSubTitle1" = "スマートフォン上で同意を完結し、従来の対面や書面でのプロセスより速く、スムーズに行うことができます。";
+"PageIntroTitle2" = "同意レシートをアプリ上で\n一元管理";
+"PageIntroSubTitle2" = "実行した同意はレシートとして発行されアプリ上で管理可能に";
+"PageIntroTitle3" = "マイナンバーカードと連携可能";
+"PageIntroSubTitle3" = "煩雑な個人情報の入力を手で行うことはもう必要ありません。";
+"SignInWelcomeLabelAfterIntro" = "さあ、\nAUTHBLUEを \n始めよう";
+
+"TutorialStartScreenTitle1" = "同意送信の";
+"TutorialStartScreenTitle2" = "チュートリアルを行います";
+"TutorialStartScreenGoNext" = "次へ";
+"TutorialRequestContent" = "これはAUTHBLUEのチュートリアルコンテンツです。";
