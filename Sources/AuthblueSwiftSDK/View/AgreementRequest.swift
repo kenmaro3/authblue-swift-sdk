@@ -363,29 +363,42 @@ public struct AgreementRequest: View {
                 print("on appear at agreement request")
                 print(dynamicLinkClientId)
                 print(dynamicLinkClientName)
+                if(dynamicLinkClientId == "" || dynamicLinkClientName == ""){
+                    print("dynamicLinkClientId or dynamicLinkClientName is None")
+                    handler(false)
+                    return
+                }
                 clientId = dynamicLinkClientId
                 clientName = dynamicLinkClientName
                 
                 APIClient.getClientForAgreement(client_id: dynamicLinkClientId, client_name: dynamicLinkClientName){ result in
                     switch result{
                     case .success(let data):
-                        if let res_content = data.result?.content.agreement{
-                            content = res_content
+                        if(!data.has_error){
+                            if let res_content = data.result?.content.agreement{
+                                content = res_content
+                            }
+                            
+                            if let res_agreement_method = data.result?.agreement_method{
+                                let tmp = agreementMethodsToAuthMethodList(agreement_method: res_agreement_method)
+                                agreementMethods = tmp
+                            }
+                            
+                            if let res_requesting_info = data.result?.requesting_info{
+                                requestingInfo = res_requesting_info
+                            }
+                            
+                            isGoToStepsAvailable = true
+                            return
+                        }else{
+                            handler(false)
+                            return
                         }
-                        
-                        if let res_agreement_method = data.result?.agreement_method{
-                            let tmp = agreementMethodsToAuthMethodList(agreement_method: res_agreement_method)
-                            agreementMethods = tmp
-                        }
-                        
-                        if let res_requesting_info = data.result?.requesting_info{
-                            requestingInfo = res_requesting_info
-                        }
-                        
-                        isGoToStepsAvailable = true
                         
                     case .failure(let error):
                         print(error)
+                        handler(false)
+                        return
                         
                     }
                 }
